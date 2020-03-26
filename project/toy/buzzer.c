@@ -29,7 +29,7 @@ void stopBuzzer(){
 }
 
 void playSong(){
-  int song[] = {5274.04,5274.04,5274.04,4698.63,6271.93,5274.04};
+  int song[] = {659.25,659.25,659.25,587.33,783.99,659.25};
   static int c= 0;
 
   buzzer_set_period(song[c]);
